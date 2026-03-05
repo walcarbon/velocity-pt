@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Carbon Clinic North Denton placeholder</title>
+  <desc id="desc">Decorative placeholder image for North Denton location media seed.</desc>
+  <rect width="1200" height="800" fill="#380002"/>
+  <rect x="70" y="70" width="1060" height="660" fill="none" stroke="#FFFFFF" stroke-width="8"/>
+  <text x="95" y="145" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="52">Carbon Clinic — North Denton</text>
+</svg>

@@ -1,0 +1,80 @@
+/*
+Theme Name: Carbon Hello Child
+Theme URI: https://example.com
+Description: Performance-first child theme for Hello Elementor starter stack.
+Author: Carbon
+Template: hello-elementor
+Version: 1.0.0
+Text Domain: carbon-hello-child
+*/
+
+:root {
+  --carbon-color-primary: #75161C;
+  --carbon-color-secondary: #380002;
+  --carbon-color-tertiary: #323232;
+  --carbon-color-background: #FFFFFF;
+  --carbon-color-text: #1F1F1F;
+  --carbon-font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --carbon-space-1: 0.25rem;
+  --carbon-space-2: 0.5rem;
+  --carbon-space-3: 0.75rem;
+  --carbon-space-4: 1rem;
+  --carbon-space-5: 1.5rem;
+  --carbon-space-6: 2rem;
+  --carbon-space-7: 3rem;
+  --carbon-space-8: 4rem;
+  --carbon-h1: clamp(2rem, 5vw, 3rem);
+  --carbon-h2: clamp(1.75rem, 4vw, 2.5rem);
+  --carbon-h3: clamp(1.5rem, 3vw, 2rem);
+  --carbon-h4: 1.25rem;
+  --carbon-h5: 1.125rem;
+  --carbon-h6: 1rem;
+}
+
+html,
+body {
+  background: var(--carbon-color-background);
+  color: var(--carbon-color-text);
+  font-family: var(--carbon-font-system);
+  line-height: 1.6;
+}
+
+h1 { font-size: var(--carbon-h1); margin-bottom: var(--carbon-space-5); }
+h2 { font-size: var(--carbon-h2); margin-bottom: var(--carbon-space-4); }
+h3 { font-size: var(--carbon-h3); margin-bottom: var(--carbon-space-4); }
+h4 { font-size: var(--carbon-h4); margin-bottom: var(--carbon-space-3); }
+h5 { font-size: var(--carbon-h5); margin-bottom: var(--carbon-space-3); }
+h6 { font-size: var(--carbon-h6); margin-bottom: var(--carbon-space-2); }
+
+p,
+ul,
+ol { margin-bottom: var(--carbon-space-4); }
+
+a {
+  color: var(--carbon-color-primary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 2px;
+}
+
+a:hover,
+a:focus-visible {
+  color: var(--carbon-color-secondary);
+}
+
+:focus-visible {
+  outline: 3px solid var(--carbon-color-primary);
+  outline-offset: 2px;
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
